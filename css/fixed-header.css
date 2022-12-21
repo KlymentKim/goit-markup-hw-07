@@ -1,0 +1,16 @@
+.page-header{
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    background-color: rgba(255,255,0,0.8);
+    outline: 1px solid black;
+
+    top:0;
+    left: 0;
+}
+/* .body{
+    padding-top: 100px;
+} */
+ p{
+    padding: 20px 20px;
+}

@@ -1,0 +1,38 @@
+     /* Overlay Button  */
+.card link {
+    position: relative;
+    display: block;          
+}
+.wrapper-heigth-position{
+    position: relative;
+    display: block;   
+    overflow: hidden;
+}      
+.overlay {
+    position: absolute;
+    background-color:rgba(77, 90, 229, 1);
+    padding: 40px 32px;
+    left: 0;
+    bottom: 0;
+    opacity: 0.8;
+           
+    color: #F4F4FD;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    overflow: auto;
+   
+    /* transition: opacity 0; */
+    /* transition-duration: 500ms; */
+    transform: translate(0, 100%);
+    /*transition: opacity; */
+    /* transition-duration: 500ms; */
+   
+}
+.card:hover .overlay,
+.card:focus .overlay {
+    /* opacity:1; */
+    transform: translate(0,0);
+    transition: transform 300ms var(--timing-function);
+
+}
