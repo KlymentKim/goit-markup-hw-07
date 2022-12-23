@@ -35,6 +35,8 @@ button{
     
     --primary-bg-color:##FFFFFF;
     --primary-bg-color-employees:#F4F4FD;
+    --pr-logo-color1:rgba(77, 90, 229, 1);
+    --pr-logo-color2:#2E2F42;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -49,4 +51,16 @@ body{
 .section{
     padding-top: 96px;
     padding-bottom: 96px;
+}
+.link-logo > span{
+    color:var(--pr-logo-color1);
+}
+    /* FONTS */
+.link-logo{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color:var(--pr-logo-color2);
 }
