@@ -43,6 +43,11 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-color-baground);  
 }
+
+.header-menu-mobile{
+    display: none;
+}
+
 .container{
     padding-left: 15px;
     padding-right: 15px;  
