@@ -46,7 +46,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;  
 }
-@media screen and (min-width:426px) {
+@media screen and (min-width:480px) {
     .container{
         width: 428px;
         margin: 0 auto;
@@ -54,7 +54,7 @@ body{
 }
 @media screen and (min-width:768px) {
     .container{
-        width: 768px;
+        width: 766px;
         margin: 0 auto;
     }
 }
