@@ -33,6 +33,8 @@ button{
 }
 :root{
     
+    --primary-bg-color:##FFFFFF;
+    --primary-bg-color-employees:#F4F4FD;
 }
 body{
     font-family: 'Roboto', sans-serif;
