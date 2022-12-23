@@ -30,6 +30,7 @@ img{
 }
 button{
     cursor: pointer;
+    outline: none;
 }
 :root{
     
