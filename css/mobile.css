@@ -129,5 +129,6 @@ body{
     border-radius: 4px;
     background-color: #4D5AE5;
     color: var(--primary-bg-color);
+    border: none;
   
 }
