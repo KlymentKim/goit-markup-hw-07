@@ -44,15 +44,12 @@ body{
 }
 .container{
     padding-left: 15px;
-    padding-right: 15px;
-    
+    padding-right: 15px;  
 }
-   
 @media screen and (min-width:426px) {
     .container{
-        width: 426px;
+        width: 428px;
         margin: 0 auto;
-        background-color: aqua;
     }
 }
 
