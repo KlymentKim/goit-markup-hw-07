@@ -64,3 +64,9 @@ body{
     letter-spacing: 0.03em;
     color:var(--pr-logo-color2);
 }
+.list-menu{
+    display: flex;
+}
+.menu-items{
+    width: 100%;
+}

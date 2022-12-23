@@ -21,24 +21,31 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container ">
             <nav class="list-menu">
-                <ul>
-                    <li>
+                <ul class="menu-items">
+                    
+                    <li class="item-menu">
                         <a href="./mobile.html" class="link-logo link">
                             <span>WEB</span>STUDIO
                         </a>
                     </li>
                     
-                    <li>
-                        <button class="btn-open" js-open-menu>
+                    <li class="item-menu">
+                        <button class="btn-open" 
+                            js-open-menu
+                            aria-expanded="false"
+                            aria-controls="mobile-menu">
                             <svg class="icon-btn-open" width="32" height="22">
                                 <use href="./images-mobile/svg/sprite-mobile.svg#icon-charm_menu-hamburger"></use>
                             </svg>
                         </button>
-                        <button class="btn-close" js-close-menu>
+                        <button class="btn-close" 
+                            js-close-menu
+                            aria-expanded="false"
+                            aria-controls="mobile-menu">
                             <svg class="icon-btn-close" width="24" heigth="24">
-                                <use href="./images-mobile/svg/sprite-mobile.svg#icon-close"></use>
+                                <!-- <use href="./images-mobile/svg/sprite-mobile.svg#icon-close"></use> -->
                             </svg>
                         </button>
                     </li>
