@@ -33,7 +33,7 @@ button{
 }
 :root{
     
-    --primary-bg-color:##FFFFFF;
+    --primary-bg-color:#FFFFFF;
     --primary-bg-color-employees:#F4F4FD;
     --pr-logo-color1:rgba(77, 90, 229, 1);
     --pr-logo-color2:#2E2F42;
@@ -43,15 +43,25 @@ body{
     background-color: var(--primary-color-baground);  
 }
 .container{
-    width: 396px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
+   
+@media screen and (min-width:426px) {
+    .container{
+        width: 426px;
+        margin: 0 auto;
+        background-color: aqua;
+    }
+}
+
 .section{
     padding-top: 96px;
     padding-bottom: 96px;
 }
+   
+
 .link-logo > span{
     color:var(--pr-logo-color1);
 }
@@ -68,5 +78,45 @@ body{
     display: flex;
 }
 .menu-items{
-    width: 100%;
+    display: flex;
+    
+}
+
+
+.hero-section-mobile{
+    max-width: 480px;
+    height: 432px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), 
+    url('../images-mobile/bg-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.hero-title-wrapper h1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--primary-bg-color);
+    padding-top: 112px;
+   
+}
+.title-h1{
+
+}
+.btn-order{
+    display: flex;
+    padding: 16px 32px;
+    /* margin-top: 72px; */
+    width: 169px;
+    height: 59px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: var(--primary-bg-color);
+  
 }
