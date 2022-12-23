@@ -40,3 +40,9 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-color-baground);  
 }
+.container{
+    width: 396px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+}
