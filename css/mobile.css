@@ -57,9 +57,21 @@ body{
         display: none;
     }
 }
-
-
-
+.header{
+    padding: 24px 24px;
+}
+.mobile-wrapper-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-open-header{
+    border: none;
+    background-color:transparent;
+    padding: 0;
+    line-height: 0;
+    
+}
 
 /* ------------------------------------- */
 .container{
@@ -107,14 +119,6 @@ body{
     letter-spacing: 0.03em;
     color:var(--pr-logo-color2);
 }
-.list-menu{
-    display: flex;
-}
-.menu-items{
-    display: flex;
-    
-}
-
 
 .hero-section-mobile{
     max-width: 480px;
