@@ -43,11 +43,25 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-color-baground);  
 }
-
-.header-menu-mobile{
-    display: none;
+@media screen and (max-width:1200px) {
+    .header-menu-mobile{
+        display: none;
+    }
 }
 
+@media screen and (max-width:768px) {
+    .header-menu-mobile{
+        display: none;
+    }
+    .menu-items-mobile{
+        display: none;
+    }
+}
+
+
+
+
+/* ------------------------------------- */
 .container{
     padding-left: 15px;
     padding-right: 15px;  
@@ -68,10 +82,13 @@ body{
     .container{
         width: 1200px;
         margin: 0 auto;
+      
     }
 }
 
 
+
+/* ----------------------------------------------- */
 .section{
     padding-top: 96px;
     padding-bottom: 96px;
