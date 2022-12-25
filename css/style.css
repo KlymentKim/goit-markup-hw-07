@@ -181,7 +181,7 @@ body{
     
     background-color: var(--primary-color-button);
     color: var(--primary-color-baground);
-   
+
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid transparent;
@@ -195,7 +195,7 @@ body{
     background-color: var(--color-btn-hover);
     outline: none;
 }
-       
+
             /* Description-title Section-1 */
 .wrapper-tittle{
     display: flex;

@@ -179,3 +179,11 @@ body{
     margin-bottom: 72px;
 }
 /* ----------------------------- */
+.title-about-employee{
+    text-align: center;
+    margin-bottom: 72px;
+}
+.item-employee,
+.list-about-employees{
+    text-align: center;
+}
