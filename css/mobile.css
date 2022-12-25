@@ -195,3 +195,31 @@ body{
 .job-title{
     margin-bottom: 8px;
 }
+
+.list-employee-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    margin-top:  8px;
+    margin-bottom: 32px;
+}
+.link-social-employee{
+    width: 40px;
+    height: 40px;
+    padding: 12px 12px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-svg-color-social-link);
+    fill: var(--bg-color-icons);
+}
+.list-employee-social > .item-link{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
