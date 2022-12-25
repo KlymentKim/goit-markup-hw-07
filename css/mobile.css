@@ -99,11 +99,11 @@ body{
 
 
 
-/* ----------------------------------------------- */
-.section{
+/* ----------------------MOBILE CSS ------------------------- */
+/* .section{
     padding-top: 96px;
     padding-bottom: 96px;
-}
+} */
    
 .header{
     padding: 24px 24px;     
@@ -124,6 +124,7 @@ body{
 .hero-section-mobile{
     max-width: 480px;
     height: 432px;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), 
     url('../images-mobile/bg-photo.jpg');
@@ -131,31 +132,35 @@ body{
     background-repeat: no-repeat;
     background-position: center;   
 }
-.hero-title-wrapper h1{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+.hero-title-wrapper{
+    text-align: center;
+    padding:112px 56px;
+
+}
+.title-h1{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--primary-bg-color);
-    padding-top: 112px;
-   
-}
-.title-h1{
-
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 .btn-order{
-    display: flex;
-    padding: 16px 32px;
-    /* margin-top: 72px; */
-    width: 169px;
-    height: 59px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    margin: 0 auto;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     background-color: #4D5AE5;
-    color: var(--primary-bg-color);
-    border: none;
-  
+    color:#FFFFFF;
+    border: 1px solid transparent;
+
+    padding: 16px 32px;
+    border-radius: 4px;
+    transition: background-color 650ms linear ;
+
 }
