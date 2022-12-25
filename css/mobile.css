@@ -247,6 +247,26 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-
 /* //////////////////////////////////// */
+
+/* ///////////////// Footer /////////////////// */
+.footer-mobile{
+    padding: 96px 96px;
+    background-color: #2E2F42;
+}
+.footer-wrapper-mobile{
+    display: block;
+    flex-direction: column;
+}
+.link-logo2{
+    color:#F4F4FD;
+
+}
+.footer-mobile-link{
+    margin-bottom: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* //////////////////////////////////////////// */
+
+
