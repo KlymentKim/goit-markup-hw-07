@@ -105,7 +105,9 @@ body{
     padding-bottom: 96px;
 }
    
-
+.header{
+    padding: 24px 24px;     
+}
 .link-logo > span{
     color:var(--pr-logo-color1);
 }

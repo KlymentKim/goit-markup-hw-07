@@ -181,4 +181,7 @@
         margin-left: auto;
     }
 
+    .header{
+        padding: 24px 24px;     
+    }
 }
