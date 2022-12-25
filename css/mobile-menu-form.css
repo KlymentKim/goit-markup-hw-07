@@ -174,4 +174,11 @@
     .link-logo{
         margin-right: 123px;
     }
+    .item-menu:not(:last-child){
+        margin-right: 40px;
+    }
+    .header-menu-mobile{
+        margin-left: auto;
+    }
+
 }

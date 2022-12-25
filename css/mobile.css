@@ -44,9 +44,7 @@ body{
     background-color: var(--primary-color-baground);  
 }
 @media screen and (max-width:1200px) {
-    .header-menu-mobile{
-        display: none;
-    }
+ 
 }
 
 @media screen and (max-width:766px) {
@@ -54,6 +52,9 @@ body{
     .menu-items-mobile{
         display: none;
     }
+    .header-menu-mobile{
+        display: none;
+    }   
 }
 .header{
     padding: 24px 24px;
