@@ -98,7 +98,6 @@ body{
 }
 .main-menu{
     display: flex;
-    /* outline: 1px solid tomato; */
 }
             /* всі елементи nav горизонтально  */
 .container-menu{

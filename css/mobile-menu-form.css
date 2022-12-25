@@ -167,6 +167,11 @@
 
     .list-menu{
         display: flex;
-        align-items: center;
+}
+    .menu-items-mobile{
+        display: flex;
+    }
+    .link-logo{
+        margin-right: 123px;
     }
 }
