@@ -24,7 +24,9 @@
 }
 .mobile-menu-wrapper{
     position: relative;
-    padding: 40px 40px;
+    /* padding: px 40px; */
+    min-width: 428px;
+    min-height: 796px;
 }
 .btn-close{
     position: absolute;
@@ -82,16 +84,15 @@
     display: flex;
 }
 .social-list-mobile{
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between; */
+     display: flex;
+    justify-content: center;
     align-items: center;
-}
-.social-list-mobile:not(:nth-last-child(4n)){
-    margin-left: 56px;
+    gap: 56px;
 }
 
+
 .social-link-mobile{
+    display: block;
     width: 40px;
     height: 40px;
     padding: 10px 8px;
