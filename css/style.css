@@ -93,8 +93,7 @@ body{
     padding-bottom: 24px;
     box-shadow: 0px 2px 1px
     rgba(46, 47, 66, 0.08), 0px 1px 1px
-    rgba(46, 47, 66, 0.16), 
-   0px 1px 6px rgba(46, 47, 66, 0.08)
+    rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08)
 }
 .main-menu{
     display: flex;
@@ -164,7 +163,7 @@ body{
 .main-title-item{
     margin-top: 0;
     margin-bottom: 48px;
-   
+
     color:var(--primary-color-baground);
     font-weight: 500;
     font-size: 56px;

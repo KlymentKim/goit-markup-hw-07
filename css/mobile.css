@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,p{
     margin-bottom: 0;
 }
 img{
-    display: block;
+    /* display: block; */
     max-width: 100%;
     height: auto;
 }
@@ -44,11 +44,11 @@ body{
     background-color: var(--primary-color-baground);  
 }
 @media screen and (max-width:1200px) {
- 
+
 }
 
 @media screen and (max-width:766px) {
-   
+
     .menu-items-mobile{
         display: none;
     }
@@ -93,7 +93,7 @@ body{
     .container-mobile{
         width: 1200px;
         margin: 0 auto;
-      
+    
     }
 }
 
@@ -183,7 +183,8 @@ body{
     text-align: center;
     margin-bottom: 72px;
 }
-.item-employee,
+.item-employee img,
 .list-about-employees{
     text-align: center;
+    all:none;
 }
