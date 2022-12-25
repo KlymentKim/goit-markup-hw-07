@@ -179,20 +179,26 @@ body{
     margin-bottom: 72px;
 }
 /* ----------------------------- */
+.employees{
+    background-color: #F4F4FD;
+}
 .title-about-employee{
     text-align: center;
     margin-bottom: 72px;
 }
-.item-employee img,
+.item-employee,
 .list-about-employees{
     text-align: center;
-    all:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
 }
 .employee-wrapper{
-    padding: 32px 63px;
+    padding-top:32px;
 }
-.name-employee,
-.job-title{
+.name-employee{
     margin-bottom: 8px;
 }
 
@@ -217,8 +223,9 @@ body{
     background-color: var(--bg-svg-color-social-link);
     fill: var(--bg-color-icons);
 }
-.list-employee-social > .item-link{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+.item-employee{
+    box-shadow: 0px 1px 6px
+    rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;

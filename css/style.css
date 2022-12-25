@@ -93,7 +93,8 @@ body{
     padding-bottom: 24px;
     box-shadow: 0px 2px 1px
     rgba(46, 47, 66, 0.08), 0px 1px 1px
-    rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08)
+    rgba(46, 47, 66, 0.16), 
+   0px 1px 6px rgba(46, 47, 66, 0.08)
 }
 .main-menu{
     display: flex;
@@ -163,7 +164,7 @@ body{
 .main-title-item{
     margin-top: 0;
     margin-bottom: 48px;
-
+   
     color:var(--primary-color-baground);
     font-weight: 500;
     font-size: 56px;
@@ -222,7 +223,7 @@ body{
 }
 .employees-list{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: center;
     /* margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap)); */
@@ -240,7 +241,7 @@ body{
     margin-top: var(--card-set-gap); */
 }
 .employee-card:nth-child(-n+4){
-    margin-right: 24px;
+    margin-right: 20px;
 }
 .employee-wrapper{
     padding-top: var(--padding-top-set-img);
