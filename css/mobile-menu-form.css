@@ -28,18 +28,24 @@
 }
 .btn-close{
     position: absolute;
-    top: 40px;
-    right: 15px;
+    top: 26px;
+    right: 40px;
     border: none;
     background-color: transparent;
 }
+.btn-open-header{
+    width: 32px;
+    height: 22px;
+}
 .icon-btn-close{
-    width: 24px;
-    height: 24px;
+    width: 15px;
+    height: 15px;
     line-height: 0; 
 }
-
-.item-link > .link-studio{
+.list-link{
+    width: 100%;
+}
+.link-studio{
     display: block;
     font-weight: 700;
     font-size: 36px;
@@ -53,4 +59,21 @@
 }
 .item-link:first-child{
     margin-top: 16px;
+}
+.item-link-tel{
+    margin-top: 284px;
+    margin-bottom: 40px;
+}
+.link-tel{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+}
+.link-studio .link-emal{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+    text-decoration: none;
+    list-style: none;
 }
