@@ -100,11 +100,11 @@ body{
 
 
 /* ----------------------MOBILE CSS ------------------------- */
-/* .section{
+.section{
     padding-top: 96px;
     padding-bottom: 96px;
-} */
-   
+}
+
 .header{
     padding: 24px 24px;     
 }
@@ -162,5 +162,20 @@ body{
     padding: 16px 32px;
     border-radius: 4px;
     transition: background-color 650ms linear ;
-
 }
+/* ----------------------------- */
+.description{
+    width: 100%;
+}
+.list-description-about{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.title-about{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.item:not(:last-child){
+    margin-bottom: 72px;
+}
+/* ----------------------------- */
