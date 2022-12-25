@@ -24,7 +24,7 @@
 }
 .mobile-menu-wrapper{
     position: relative;
-    /* padding: px 40px; */
+padding: 40px 40px;
     min-width: 428px;
     min-height: 796px;
 }
@@ -53,6 +53,9 @@
     letter-spacing: 0.02em;
     color:#2E2F42;
     text-decoration: none;
+}
+.link-studio:hover{
+    color: #4D5AE5;
 }
 .item-link:not(:last-child){
     margin-bottom: 40px;
@@ -84,13 +87,11 @@
     display: flex;
 }
 .social-list-mobile{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 56px;
 }
-
-
 .social-link-mobile{
     display: block;
     width: 40px;
@@ -102,4 +103,9 @@
     align-items: center;
     background-color: #4D5AE5;
     fill: #F4F4FD;
+}
+.social-link-mobile:hover,
+.social-link-mobile:focus{
+    background-color: #404BBF;
+    cursor: pointer;
 }
