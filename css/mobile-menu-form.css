@@ -78,18 +78,23 @@
     display: flex;
     margin-top: 48px;
 }
-
-.social-list-mobile{
-    /* width: 100%; */
+.socila-links{
     display: flex;
-    justify-content: space-between;
+}
+.social-list-mobile{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
     align-items: center;
+}
+.social-list-mobile:not(:nth-last-child(4n)){
+    margin-left: 56px;
 }
 
 .social-link-mobile{
     width: 40px;
     height: 40px;
-    padding: 12px 12px;
+    padding: 10px 8px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
