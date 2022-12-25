@@ -188,3 +188,10 @@ body{
     text-align: center;
     all:none;
 }
+.employee-wrapper{
+    padding: 32px 63px;
+}
+.name-employee,
+.job-title{
+    margin-bottom: 8px;
+}
