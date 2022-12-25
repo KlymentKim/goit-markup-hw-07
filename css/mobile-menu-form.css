@@ -10,6 +10,17 @@
      0px 1px 1px rgba(46, 47, 66, 0.16),
      0px 1px 6px rgba(46, 47, 66, 0.08);
     
+     opacity: 0;
+     overflow: hidden;
+     pointer-events: none;
+     transition: opacity 500ms linear, visibility 500ms linear;
+     
+}
+.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    position: absolute;
 }
 .mobile-menu-wrapper{
     position: relative;
