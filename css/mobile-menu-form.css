@@ -22,28 +22,59 @@
     pointer-events: auto;
     position: absolute;
 }
+.btn-open{
+    background-color: transparent;
+    border: none;
+    width: 32px;
+    height: 22px;
+}
+.btn-header-mobile{
+    fill:#2E2F42;
+}
+
 .mobile-menu-wrapper{
     position: relative;
-padding: 40px 40px;
-    min-width: 428px;
-    min-height: 796px;
+    padding-top:40px;
+    padding-left: 40px;
+    /* min-width: 428px; */
+    /* min-height: 796px; */
 }
 .btn-close{
     position: absolute;
-    top: 26px;
-    right: 40px;
+    top: 40px;
+    right: 15px;
     border: none;
     background-color: transparent;
-}
-.btn-open-header{
-    width: 32px;
-    height: 22px;
 }
 .icon-btn-close{
     width: 15px;
     height: 15px;
     line-height: 0; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+    transition: background-color 250ms linear;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.icon-btn-close:hover{
+    background-color:#404BBF;
+    outline: none; 
+    fill: #FFFFFF;
+}
+.list-link{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 16px;
+    margin-top: 16px;
+}
+.item-link-studio:not(:nth-last-child(3n)){
+    margin-bottom: 40px;
+}
+
 
 .link-studio{
     display: block;
@@ -54,45 +85,42 @@ padding: 40px 40px;
     color:#2E2F42;
     text-decoration: none;
 }
-.link-studio:hover{
+/* .link-studio:hover{
     color: #4D5AE5;
-}
-.item-link:not(:last-child){
+} */
+/* .item-link:not(:last-child){
     margin-bottom: 40px;
-}
-.item-link:first-child{
-    margin-top: 16px;
-}
-.item-link-tel{
+} */
+/* .item-link-tel{
     margin-top: 284px;
     margin-bottom: 40px;
-}
-.link-tel{
+} */
+/* .link-tel{
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
-}
-.link-studio .link-emal{
+} */
+/* .link-studio .link-emal{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2E2F42;
     
-}
-.socila-links{
+} */
+/* .socila-links{
     display: flex;
     margin-top: 48px;
-}
-.socila-links{
+} */
+/* .socila-links{
     display: flex;
-}
-.social-list-mobile{
+} */
+/* .social-list-mobile{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 56px;
-}
-.social-link-mobile{
+} */
+/* .social-link-mobile{
     display: block;
     width: 40px;
     height: 40px;
@@ -103,9 +131,9 @@ padding: 40px 40px;
     align-items: center;
     background-color: #4D5AE5;
     fill: #F4F4FD;
-}
-.social-link-mobile:hover,
+} */
+/* .social-link-mobile:hover,
 .social-link-mobile:focus{
     background-color: #404BBF;
     cursor: pointer;
-}
+} */
