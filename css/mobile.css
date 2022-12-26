@@ -326,6 +326,8 @@ margin: 0 auto;
     width: 100%;
     height: 40px;
     background: transparent;
+    margin-bottom: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .form-inpubtn:focus{
     outline: none;
@@ -333,7 +335,7 @@ margin: 0 auto;
 }
 .container-btn{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
