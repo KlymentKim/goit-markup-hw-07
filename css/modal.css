@@ -40,22 +40,22 @@
        right: 10px;
        padding: 0;
        border-radius: 50%;
-         
+       
        width: 24px;
        height: 24px;
-   
+
        display: flex;
        justify-content: center;
        align-items: center;
        border: none;
-   
+
        transition: background-color 250ms linear;
        border: 1px solid rgba(0, 0, 0, 0.1);     
 }
 
 .icon-close {
-   width: 8px;
-   height: 8px; 
+       width: 8px;
+       height: 8px; 
 }
 
 .btn-close:hover,
@@ -64,7 +64,6 @@
        outline: none; 
        fill: #FFFFFF;
 }
- 
 
         /* MODAL WINDOW/ */
 .modal-forma{
@@ -89,7 +88,7 @@
        margin-bottom: 4px;
 }
 .wrapper-icon-user{
-      position: relative;
+       position: relative;
 }
 .contact-form-input{
        width: 100%;
