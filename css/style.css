@@ -88,6 +88,10 @@ body{
         padding-top: 24px;
         padding-bottom: 24px;
     }
+    .section{
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
     .header-menu-list {
         display: none;
     }
@@ -114,7 +118,6 @@ body{
         display: none;
     }
     .title-content{
-        padding: 112px 112px;
         text-align: center;
     }
     .main-title-item{
@@ -124,6 +127,14 @@ body{
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 72px;
+    }
+    .btn{
+        
+        padding: 16px 32px;
+        background: #4D5AE5;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #FFFFFF;
     }
     
 
