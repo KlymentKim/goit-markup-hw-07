@@ -34,5 +34,4 @@
     /* opacity:1; */
     transform: translate(0,0);
     transition: transform 300ms var(--timing-function);
-
 }
