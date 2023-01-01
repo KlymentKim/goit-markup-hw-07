@@ -75,13 +75,14 @@ body{
 .container{
     padding-left: 15px;
     padding-right: 15px;
-} 
+}
 
 
 @media screen and (min-width:480px){
+    
     .container {
-    width: 428px;
-    margin: 0 auto; 
+        width: 100%; 
+        margin: 0 auto; 
     }
     .header{
         padding-top: 24px;
@@ -166,7 +167,7 @@ body{
         color: #434455 ;
     }
 
-    .main-title-todo{
+    /* .main-title-todo{
         text-align: center;
         margin-bottom: 72px;
     }
@@ -175,8 +176,10 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } */
 }
+
+
 /* /////////////////////////////////// */
 
 
@@ -189,6 +192,7 @@ body{
         max-width: 1158px; 
         margin: 0 auto; 
         }
+
     .section{
         padding-top: 120px;
         padding-bottom: 120px;
