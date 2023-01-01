@@ -74,14 +74,13 @@ body{
 
 .container{
     padding-left: 15px;
-    padding-right: 15px; 
-    
+    padding-right: 15px;
 } 
 
 
 @media screen and (min-width:480px){
     .container {
-    max-width: 100%;
+    width: 428px;
     margin: 0 auto; 
     }
     .header{
@@ -89,8 +88,8 @@ body{
         padding-bottom: 24px;
     }
     .section{
-        padding-top: 112px;
-        padding-bottom: 112px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
     .header-menu-list {
         display: none;
@@ -101,6 +100,9 @@ body{
 
     .hero-section
     {
+        padding-top: 112px;
+        padding-bottom: 122px;
+
         background-image: linear-gradient(rgba(46, 47, 66,0.7),
         rgba(46, 47, 66,0.7)),
         url("../images/bg-mobile1x.jpg");
@@ -164,6 +166,16 @@ body{
         color: #434455 ;
     }
 
+    .main-title-todo{
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    .employees-list{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* /////////////////////////////////// */
 
