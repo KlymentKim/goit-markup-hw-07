@@ -318,17 +318,17 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#FFFFFF;
- }
- .wrapper-list-social-media{
+}
+.wrapper-list-social-media{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
- }
+}
 
- .wrapper-list-social-media {
-     gap: 16px;
- }
+.wrapper-list-social-media {
+    gap: 16px;
+}
 
  .social-link {
      width: 40px;
@@ -441,14 +441,9 @@ body{
       fill: var(--bg-svg-color-social-link);
   }
 
-  .footer-wrapper-1 {
-      margin-right: 120px;
-  }
 
   /*------------ Social media -----------*/
-  .footer-wrapper-2 {
-      margin-right: 80px;
-  }
+
 
   .title-social-media,
   .link-subscribe {
@@ -562,7 +557,7 @@ body{
 
 @media screen and (min-width:768px) {
     .container {
-        width:768px; 
+        width:100%; 
         margin: 0 auto; 
     }
     .header-menu-list{
@@ -649,6 +644,56 @@ body{
     justify-content: center;
     align-items: center;
    }
+
+   /* ////////// Footer  /////////// */
+
+    .footer-wrapper{
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+
+.wrapper-logo-social{
+    gap:24px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+
+.footer-logo1,
+.footer-logo2{
+    color:#4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height:1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-logo2{
+    color: #F4F4FD;
+}
+
+    .wrapper-logo-social{
+        display: flex;
+        align-items: center;
+    }
+    .wrapper-social-media{
+        margin:0;
+        padding: 0;
+    }
+
+.footer-wrapper-1,
+ .footer-wrapper-2{
+    display: block;
+ }
+ .social-container{
+    display: block;
+    justify-content: baseline;
+ }
+ .wrapper-list-social-media{
+    display: flex;
+    justify-content: flex-start;
+ }
+
 }
 
 
@@ -1006,7 +1051,7 @@ body{
     .footer-wrapper{
         display: flex;
         justify-content: center;
-        /* flex-direction: row;
+         flex-direction: row;
           
     }
     .main-footer-text,
