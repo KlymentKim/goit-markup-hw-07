@@ -684,16 +684,28 @@ body{
 .footer-wrapper-1,
  .footer-wrapper-2{
     display: block;
+    flex-direction: row;
  }
  .social-container{
-    display: block;
-    justify-content: baseline;
+    /* display: block;
+    justify-content: baseline; */
  }
  .wrapper-list-social-media{
     display: flex;
     justify-content: flex-start;
  }
-
+    .footer-form{
+        width: 100%;
+        display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       column-gap: 24px;
+       margin-bottom: 0;
+    }
+   .form-input{
+    margin-bottom: 0;
+   }
 }
 
 
