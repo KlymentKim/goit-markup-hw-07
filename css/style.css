@@ -77,11 +77,12 @@ body{
     padding-right: 15px;
 }
 
-@media screen and (max-width:488px){
+@media screen and (max-width:480px){
     .header-menu-list-contact{
         display: none;
     }
 }
+
 
 @media screen and (min-width:480px){
     
@@ -555,7 +556,7 @@ body{
 
 @media screen and (min-width:768px) {
     .container {
-        width: 100%; 
+        width:768px; 
         margin: 0 auto; 
     }
     .header-menu-list{
@@ -615,6 +616,16 @@ body{
     display: flex;
    }
    .wrapper-tittle{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .wrapper-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 356px;
+    height: 120px;
+   }
+   .wrapper-list{
     display: flex;
     flex-wrap: wrap;
 
