@@ -216,15 +216,21 @@ body{
     .icon-svg-employee:focus{
         background-color: 404BBF;
     }
-    
+    .employees-list{
+        display: flex;
+        flex-direction: column;
+        column-gap:24px;
+    }
     .employee-card{
+       
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
+        column-gap:24px;
     }
     .employee-card:not(:last-child){
-        margin-bottom: 24px;
+        /* margin-bottom: 24px; */
     }
     .customers-title{
         text-align: center;
@@ -636,9 +642,10 @@ body{
    /* ////////////////// Employees ///////////////////////// */
    .employees-list{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    row-gap:24px;
-    column-gap: 64px;
+    row-gap:64px;
+    column-gap: 24px;
     justify-content: center;
     align-items: center;
    }
