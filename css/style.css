@@ -553,7 +553,19 @@ body{
         width: 100%; 
         margin: 0 auto; 
     }
-    
+    .header-menu-list{
+        display: block;
+    }
+
+    .main-menu{
+        display: flex;
+    }
+    .header-menu-list{
+        display: flex;
+    }
+    .main-logo1{
+        margin-right: 123px;
+    }
 }
 
 
