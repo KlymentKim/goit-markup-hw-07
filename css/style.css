@@ -612,9 +612,9 @@ body{
        border-radius: 4px;
        color: #FFFFFF;
    }
-   .description-section{
+   /* .description-section{
     display: flex;
-   }
+   } */
    .wrapper-tittle{
     display: flex;
     flex-wrap: wrap;
@@ -632,6 +632,16 @@ body{
     justify-content: flex-start;
    }
 
+
+   /* ////////////////// Employees ///////////////////////// */
+   .employees-list{
+    display: flex;
+    flex-direction: row;
+    row-gap:24px;
+    column-gap: 64px;
+    justify-content: center;
+    align-items: center;
+   }
 }
 
 
