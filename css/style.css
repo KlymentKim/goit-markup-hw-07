@@ -560,12 +560,42 @@ body{
     .main-menu{
         display: flex;
     }
-    .header-menu-list{
+    .header-menu-list,
+    .header-div{
         display: flex;
+        flex-wrap: wrap;
+    }
+    .header-menu-list-contact{
+        display: block;
+    }
+    .container-menu{
+        display: flex;
+    }
+    .menu-item:not(:last-child){
+        margin-left: 40px;
     }
     .main-logo1{
         margin-right: 123px;
     }
+    .menu-contact{
+        margin-left: auto;
+    }
+
+    .hero-section {
+        padding-top: 112px;
+        padding-bottom: 122px;
+    
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)),
+          url("../images-tablet/bg-photo-tablet.jpg");
+    
+        background-color: #2E2F42;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        
 }
 
 
