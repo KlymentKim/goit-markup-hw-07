@@ -659,8 +659,7 @@ body{
 }
 
 
-.footer-logo1,
-.footer-logo2{
+.footer-logo1{
     color:#4D5AE5;
     font-weight: 800;
     font-size: 18px;
@@ -670,6 +669,13 @@ body{
 }
 .footer-logo2{
     color: #F4F4FD;
+}
+.main-footer-text{
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+
 }
 
     .wrapper-logo-social{
@@ -690,9 +696,14 @@ body{
  .wrapper-list-social-media{
     display: flex;
     justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 72px;
  }
  .link-subscribe{
     margin-right: auto;
+ }
+ .social-link{
+    margin: 0;
  }
     .footer-form{
         /* width: 100%; */
@@ -703,7 +714,7 @@ body{
        column-gap: 24px;
        margin-bottom: 0;
     }
-   .form-input{
+.form-input{
     margin-bottom: 0;
     width: 264px;
    }
