@@ -618,17 +618,18 @@ body{
    .wrapper-tittle{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    row-gap:72px;
+    column-gap: 24px;
    }
    .wrapper-item{
-    display: flex;
-    flex-wrap: wrap;
+    flex-basis: calc((100% - 24px) / 2);
     width: 356px;
     height: 120px;
    }
-   .wrapper-list{
+   .h3-goals{
     display: flex;
-    flex-wrap: wrap;
-
+    justify-content: flex-start;
    }
 
 }
