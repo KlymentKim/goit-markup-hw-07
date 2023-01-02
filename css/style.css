@@ -210,8 +210,57 @@ body{
         background-color: 404BBF;
     }
     
-    
-    
+    .employee-card{
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+            border-radius: 0px 0px 4px 4px;
+    }
+    .employee-card:not(:last-child){
+        margin-bottom: 24px;
+    }
+    .customers-title{
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    .wrapper-panel-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .wrapper-panel-icons:not(:last-child){
+        margin-right: 16px;
+    }
+
+ .item-icon-rectangle{
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     border: 1px solid #8E8F99;
+     border-radius: 4px;
+     width: 168px;
+     height: 88px;
+     padding: 16px 32px;
+     fill: #8E8F99;
+ }
+
+ .item-icon-rectangle:hover,
+ .item-icon-rectangle:focus {
+     border: 1px solid var(--bg-svg-color-social-link);
+ }
+
+ .icon-svg {
+     fill: var(--bg-svg-color-icon);
+ }
+
+ .icon-svg:hover {
+     fill: var(--bg-svg-color-social-link);
+ }
+  
 }
 
 
