@@ -764,7 +764,7 @@ body{
         box-shadow: 0px 2px 1px
         rgba(46, 47, 66, 0.08), 0px 1px 1px
         rgba(46, 47, 66, 0.16), 
-    0px 1px 6px rgba(46, 47, 66, 0.08)
+        0px 1px 6px rgba(46, 47, 66, 0.08)
     }
     .main-menu{
         display: flex;
@@ -789,6 +789,9 @@ body{
     }
     .menu-item:not(:last-child){
         margin-right: 40px;
+    }
+    .header-menu-list-contact{
+        display: flex;
     }
     .menu-contact{
         margin-left: auto;
@@ -829,8 +832,7 @@ body{
         
     .title-content{
         text-align: center;
-        padding-top: 192px;
-        padding-bottom: 192px;
+       
     }
     .main-title-item{
         margin-top: 0;
