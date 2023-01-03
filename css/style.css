@@ -743,7 +743,7 @@ body{
 @media screen and (min-width:1200px){
     
     .container {
-        max-width: 1158px; 
+       width: 1200px; 
         margin: 0 auto; 
 }
 
@@ -867,6 +867,8 @@ body{
     }
     .description-section{
         display: flex;
+        column-gap: 24px;
+
     }
     .btn:hover{
         background-color: var(--color-btn-hover);
@@ -874,9 +876,9 @@ body{
            
                 /* Description-title Section-1 */
     .wrapper-tittle{
-        display: flex;
+        display: row;
         flex-wrap: nowrap;
-        gap:24px;
+        /* gap:24px; */
         justify-content: center;
         /* margin-left: calc(-1 * var(--card-set-gap));
         margin-top: calc(-1 * var(--card-set-gap)); */
