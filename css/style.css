@@ -1057,7 +1057,7 @@ body{
         0px 2px 1px rgba(46, 47, 66, 0.08);
         
     }
-     
+    
             /* відступи між блоками */
     .portfolio-card-img:not(:nth-child(3n)){
         margin-right: 24px;
@@ -1099,7 +1099,7 @@ body{
       
     }
     .footer-wrapper{
-        display: flex;
+        /* display: flex; */
         justify-content: center;
          flex-direction: row;
           
