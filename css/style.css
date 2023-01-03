@@ -83,7 +83,6 @@ body{
     }
 }
 
-
 @media screen and (min-width:480px){
     
     .container {
@@ -565,9 +564,6 @@ body{
 
 }
 
-
-
-
 @media screen and (min-width:768px) {
     .container {
         width:100%; 
@@ -736,22 +732,14 @@ body{
     }
 }
 
-
-
-
 /* ----------- Desktop -------- */
 @media screen and (min-width:1200px){
     
     .container {
-       width: 1200px; 
-        margin: 0 auto; 
+     width: 1158px; 
+     margin: 0 auto; 
 }
 
-    .section{
-        padding-top: 120px;
-        padding-bottom: 120px;
-}
-    
                 /* HEADER Section  */
     .header{
         padding: 24px 24px;     
@@ -1091,18 +1079,30 @@ body{
         margin-bottom: 72px;
     }
     
-                /* Footer */
-    .footer{
-         background-color: #2E2F42;
-         padding-top: 100px;
-         padding-bottom: 100px;
-      
-    }
-    .footer-wrapper{
-        /* display: flex; */
+         /* //////////////   Footer///////////////////        */
+    .contfooter-div{
+        display: flex;
+        align-items: center;
         justify-content: center;
-         flex-direction: row;
-          
+    }
+    .footer {
+        background-color: #2E2F42;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 80px;
+    }
+
+    .footer-wrapper {
+      display: flex;
+      margin-left: -100px;
+        
+    }
+    .wrapper-logo-social{
+        display: inline-flex;
+    }
+    .footer-wrapper-2{
+        margin-left: -24px;
+        margin-right: 80px;
     }
     .main-footer-text,
     .portfolio-footer-text{
@@ -1117,12 +1117,19 @@ body{
     .wrapper-social-media{
         display: flex;
     }
-    .wrapper-list-social-media{
-       display: flex;
-       /* align-items: stretch; */
+    .footer-div{
+        position: relative;
     }
-
-
+    .footer-wrapper-form{
+        position: absolute;
+        top:0px;
+        left: 750px;
+    }
+   
+    .wrapper-list-social-media{
+        display: flex; 
+        flex-wrap: nowrap;
+    }
 
     /* ------ SVG ICONS --------- */
 
@@ -1233,7 +1240,7 @@ body{
     
         /*------------ Social media -----------*/
     .footer-wrapper-2{
-        margin-right: 80px;
+        /* margin-right: 80px; */
     }
     .title-social-media,
     .link-subscribe{
@@ -1293,8 +1300,8 @@ body{
     .footer-form-btn{
         width: 168px;
         height: 40px;
-        margin-left:24px ;
-        position:absolute;
+        /* margin-left:24px ;
+        position:absolute; */
     }
     .footer-form-btn{
         background: #4D5AE5;
@@ -1312,6 +1319,7 @@ body{
         align-items: center;
     
     }
+
     .footer-form-btn:hover{
         background-color: var(--color-btn-hover);
     }
