@@ -184,8 +184,7 @@ body{
         margin-bottom: 72px;
     }
 
-    .main-title-todo,
-    .customers-title{
+    .main-title-todo{
         text-align: center;
         font-weight: 700;
         font-size: 36px;
@@ -237,16 +236,14 @@ body{
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
-        display: block;
-        column-gap: 24px;
+        
     }
-    /* .employee-card:not(:last-child){
+    .employee-card:not(:last-child){
         /* margin-bottom: 24px; */
-    } */
+    }
     .customers-title{
         text-align: center;
         margin-bottom: 72px;
-
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -1080,6 +1077,7 @@ body{
         letter-spacing: 0.03em;
     
         text-align:center;
+    
         margin-bottom: 72px;
     }
     
