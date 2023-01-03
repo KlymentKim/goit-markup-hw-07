@@ -902,8 +902,8 @@ body{
     }
     .employees-list{
         display: flex;
-        flex-wrap: wrap;
-        text-align: center;
+        flex-wrap: nowrap;
+        justify-content: center;
         /* margin-left: calc(-1 * var(--card-set-gap));
         margin-top: calc(-1 * var(--card-set-gap)); */
     
@@ -919,9 +919,9 @@ body{
         margin-left: var(--card-set-gap);
         margin-top: var(--card-set-gap); */
     }
-    .employee-card:nth-child(-n+4){
+    /* .employee-card:nth-child(-n+4){
         margin-right: 24px;
-    }
+    } */
     .employee-wrapper{
         padding-top: var(--padding-top-set-img);
         /* padding: 32px 16px; */
@@ -1088,7 +1088,6 @@ body{
         letter-spacing: 0.03em;
     
         text-align:center;
-    
         margin-bottom: 72px;
     }
     
