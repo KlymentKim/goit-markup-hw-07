@@ -104,7 +104,17 @@ body{
     .header-menu-list{
         display: none;
     }
-
+    .main-logo1,
+    .main-logo2{
+        color:#4D5AE5;
+        font-weight: 800;
+        font-size: 18px;
+        line-height:1.16;
+        letter-spacing: 0.03em;
+    }
+    .main-logo2{
+        color:#2E2F42;
+    }
     .hero-section
     {
         padding-top: 112px;
@@ -293,14 +303,17 @@ body{
  }
  .footer-logo1{
     align-self: center;
-    margin-bottom: 16px;
     color: #4D5AE5;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
  }
  .footer-logo2{
     color: #F4F4FD;
  }
  .main-footer-text{
-    font-weight: 400;
+    width: 268px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -517,8 +530,8 @@ body{
       width: 168px;
       height: 40px;
       /* position: absolute; */
-      align-self: center;
-  }
+        align-self: center;
+}
 
   .footer-form-btn {
       background: #4D5AE5;
