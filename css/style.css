@@ -1093,15 +1093,15 @@ body{
     }
 
     .footer-wrapper {
-      display: flex;
-      margin-left: -100px;
+    display: flex;
+    margin-left: -130px;
         
     }
     .wrapper-logo-social{
         display: inline-flex;
     }
     .footer-wrapper-2{
-        margin-left: -24px;
+        margin-left: -26px;
         margin-right: 80px;
     }
     .main-footer-text,
@@ -1123,7 +1123,7 @@ body{
     .footer-wrapper-form{
         position: absolute;
         top:0px;
-        left: 750px;
+        left:750px;
     }
    
     .wrapper-list-social-media{
