@@ -73,6 +73,7 @@ body{
 }
 
 .container{
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -88,7 +89,7 @@ body{
             display: none;
         }
     .container {
-        width: 100%; 
+        width: 350px;
         margin: 0 auto; 
     }
     .header{
@@ -569,7 +570,7 @@ body{
 
 @media screen and (min-width:768px) {
     .container {
-        width:100%; 
+        width:756px; 
         margin: 0 auto; 
     }
     .header-menu-list{
