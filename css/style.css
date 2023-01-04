@@ -77,13 +77,13 @@ body{
     padding-right: 15px;
 }
 
-@media screen and (max-width:428px){
+@media screen and (max-width:350px){
     .header-menu-list-contact{
         display: none;
     }
 }
 
-@media screen and (min-width:428px){
+@media screen and (min-width:350px){
     .header-menu-list-contact {
             display: none;
         }
