@@ -42,11 +42,10 @@
         fill:#2E2F42;
     }
     
-    
     .btn-close{
         position: absolute;
-        top: 40px;
-        right: 15px;
+        top: 23px;
+        right: -13px;
         border: none;
         background-color: transparent;
     }
@@ -83,7 +82,7 @@
         margin-bottom: 40px;
     }
     .item-link-email{
-        /* margin-bottom: 48px; */
+        margin-bottom: 48px;
     }
     
     
@@ -147,41 +146,3 @@
 
 
 /* -----------   Tablet CSS  -------------  */
-
-@media screen and (min-width:768px) {
-    .btn-open{
-        display: none;
-    }
-    .mobile-menu-form{
-        display: none;
-    }
-    .hero{
-        display: none;
-    }
-    .customers{
-        display: none;
-    }
-    .footer-mobile{
-        display: none;
-    }
-
-    .list-menu{
-        display: flex;
-}
-    .menu-items-mobile{
-        display: flex;
-    }
-    .link-logo{
-        margin-right: 123px;
-    }
-    .item-menu:not(:last-child){
-        margin-right: 40px;
-    }
-    .header-menu-mobile{
-        margin-left: auto;
-    }
-
-    .header{
-        padding: 24px 24px;     
-    }
-}
