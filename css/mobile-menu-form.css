@@ -44,8 +44,16 @@
     
     .btn-close{
         position: absolute;
-        top: 23px;
-        right: -13px;
+        top: 40px;
+        right: 15px;
+        border: none;
+        background-color: transparent;
+    }
+    .btn-close-mobile{
+
+        position: absolute;
+        top: 28px;
+        right: -14px;
         border: none;
         background-color: transparent;
     }
