@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- <link rel="stylesheet" href="./css/svg.css" /> -->
     <link rel="stylesheet" href="./css/button-line.css" />
     <link rel="stylesheet" href="./css/overlay-button.css">
-   
-   
+    <link rel="stylesheet" href="./css/portfolio-mobile.css">
+
 </head>
 <body>
     <header class="header">
@@ -36,18 +35,26 @@
                     <li class="menu-item"><a href="./contacts.html" class="nav-link link">Contacts</a></li>
                 </ul>
             </nav>
+
+            <button class="btn-open js-open-menu" >
+                <svg class="btn-header-mobile" width="32" height="22">
+                    <use href="./images/sprite.svg#icon-hamburger"></use>
+                </svg>
+            </button>
+
             <ul class="header-menu-list-contact menu-contact">
                 <li class="menu-item"><a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a>
                 </li>
                 <li class=""><a href="tel:+110001111111" class="contact-link link">+11 (000) 111-11-11</a></li>
             </ul>
+
         </div>
     </header>
 
     <main>
          <!-- Section-1 -->
-        <section class="portfolio-content"> 
-            <div class="container portfolio-btn-wrapper ">
+        <section class="portfolio-content "> 
+            <div class="container portfolio-btn-wrapper">
                 <h1 class="visually-hidden">Portfolio</h1>
                 <ul class="portfolio-content-items">
                     <li class="btn-item"><button class="portfolio-btn-items" type="button">All</button></li>
@@ -58,7 +65,7 @@
                 </ul>
             </div>
         <!-- /* Блок карти портфольо */ -->
-            <div class="container portfolio-wrapper-img">
+            <div class="container portfolio-wrapper-img ">
                     <ul class="portfolio-items-img">
                         <li class="portfolio-card-img">  
                             <a class="card link" href="./index.html">

@@ -16,7 +16,7 @@
 
     /* opacity: 0; */
     transform: scaleX(0);
-   
+
 }
 .current::after{
     /* opacity: 1; */
