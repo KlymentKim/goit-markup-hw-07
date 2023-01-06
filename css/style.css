@@ -610,6 +610,13 @@ body{
         padding-top: 96px;
         padding-bottom: 96px;
     }
+    .line-bottom{
+        padding-bottom: 24px;
+        box-shadow: 0px 2px 1px
+        rgba(46, 47, 66, 0.08), 0px 1px 1px
+        rgba(46, 47, 66, 0.16), 
+        0px 1px 6px rgba(46, 47, 66, 0.08)
+    }
 /* //////////  Portfolio Page  //////////// */
   
     .portfolio-content-items{
@@ -781,10 +788,10 @@ body{
     }
 
 .footer-wrapper-1,
- .footer-wrapper-2{
+.footer-wrapper-2{
     display: block;
     flex-direction: row;
- }
+}
 
  .wrapper-list-social-media{
     display: flex;
@@ -1316,7 +1323,7 @@ body{
         fill:var(--bg-svg-color-social-link);
     }
     .footer-wrapper-1{
-        margin-right: 120px;
+        margin-right: 90px;
     }
     
         /*------------ Social media -----------*/
