@@ -1,4 +1,4 @@
-html{
+/* html{
     box-sizing: border-box;
 }
 *,
@@ -25,21 +25,21 @@ h1,h2,h3,h4,h5,p{
 }
 img{
     /* display: block; */
-    max-width: 100%;
+    /* max-width: 100%;
     height: auto;
-}
-button{
+} */
+/* button{
     cursor: pointer;
     outline: none;
-}
-:root{
+} */
+/* :root{
     
     --primary-bg-color:#FFFFFF;
     --primary-bg-color-employees:#F4F4FD;
     --pr-logo-color1:rgba(77, 90, 229, 1);
     --pr-logo-color2:#2E2F42;
-}
-body{
+}  */
+/* body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-color-baground);  
 }
@@ -70,10 +70,10 @@ body{
     padding: 0;
     line-height: 0;
 
-}
+} */
 
 /* ------------------------------------- */
-.container{
+/* .container{
     padding-left: 15px;
     padding-right: 15px;  
 }
@@ -95,7 +95,7 @@ body{
         margin: 0 auto;
     
     }
-}
+} */
 
 
 
@@ -306,23 +306,23 @@ margin: 0 auto;
 }
 /* //////////////////////////////////////////// */
 
-.link-subscribe {
+/* .link-subscribe {
     margin-bottom: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.footer-form{
+/* .footer-form{ */
     
     /* display: inline-block; */
-    width: 100%;
+    /* width: 100%;
     flex-direction: column;
     align-items: center;
     margin-bottom: 24px;
 
-}
-.form-input-mobile{
+} */
+/* .form-input-mobile{
     width: 100%;
     height: 40px;
     background: transparent;
