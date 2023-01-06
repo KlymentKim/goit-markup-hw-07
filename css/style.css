@@ -78,7 +78,8 @@ body{
     padding-right: 15px;
 }
  
-@media screen and (min-width:480px){
+@media screen and (max-width:428px), 
+(max-width:768px){
     
     .header-menu-list-contact{
         display: none;
@@ -639,9 +640,7 @@ body{
        border-radius: 4px;
        color: #FFFFFF;
    }
-   /* .description-section{
-    display: flex;
-   } */
+ 
     .wrapper-tittle{
     display: flex;
     flex-wrap: wrap;
@@ -838,8 +837,8 @@ body{
         
     .title-content{
         text-align: center;
-        padding-top: 188px;
-        padding-bottom: 188px;
+        padding-top: 120px;
+        padding-bottom: 120px;
        
     }
     .main-title-item{
@@ -871,8 +870,8 @@ body{
         border-radius: 4px;
     }
     .description-section{
-        display: flex;
-        column-gap: 24px;
+        /* display: flex; */
+        /* column-gap: 24px; */
 
     }
     .btn:hover{
@@ -1165,8 +1164,8 @@ body{
     }
         /*--- Main photo ---*/
     .hero-section{
-        max-width: 1600px;
-        height: 603px;
+        max-width: 1440px;
+        height: 600px;
         margin: 0 auto;
         
         background-image: linear-gradient(rgba(46, 47, 66,0.7),
