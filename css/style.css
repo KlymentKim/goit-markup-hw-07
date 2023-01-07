@@ -77,10 +77,21 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-
+@media screen and (max-width:320px) {
+    .backdrop{
+        display: none;
+    }
+ 
+}
 @media screen and (max-width:428px), 
 (max-width:768px){
     
+    .btn-close{
+        display: none;
+    }
+    .header-menu-list-contact{
+        display: none;
+    }
     .header-menu-list-contact{
         display: none;
     }
@@ -642,8 +653,11 @@ padding-left: 16px;
       margin-left: 16px;
   }
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width:480px){
     .btn-close{
+        display: none;
+    }
+    .header-menu-list-contact{
         display: none;
     }
     .mobile-menu-form{
@@ -800,6 +814,10 @@ padding-left: 16px;
 }
 
 @media screen and (min-width:768px) {
+    .backdrop{
+        display: none;
+    }
+    
     .btn-close,
     .btn-open{
         display: none;
@@ -1044,11 +1062,12 @@ padding-left: 16px;
     margin-bottom: 0;
     width: 264px;
     }
-}
 
 /* ----------- Desktop -------- */
 @media screen and (min-width:1200px){
-    
+    .backdrop{
+        display: none;
+    }
     .container {
         width: 1158px; 
         margin: 0 auto; 
@@ -1649,5 +1668,3 @@ padding-left: 16px;
     }
 
 }
-
-/* --------------------------------------- */
