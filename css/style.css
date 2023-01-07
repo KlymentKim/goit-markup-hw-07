@@ -296,10 +296,7 @@ body{
 
 
 /* /* /////////////////// Portfolio mobile /////////////////////////////////// */
-.section{
-    /* padding-top: 48px;
-    padding-bottom: 48px; */
-}
+
 .portfolio-btn-wrapper{
     display: flex;
     align-items: center;
@@ -710,8 +707,8 @@ padding-left: 16px;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        padding-top: 96px;
-        padding-bottom: 72px;
+        padding-top: 64px;
+        padding-bottom: 64px;
     
     }
     .btn-item.btn-item:not(:last-child){
