@@ -1,5 +1,5 @@
      /* MODAL WINDOW/ */
-.backdrop{
+     .backdrop{
        position: fixed;
        top: 0;
        left: 0;
@@ -8,6 +8,8 @@
        height: 100%;
        background-color: rgba(46, 47, 66, 0.5);
        transition: opacity 255ms;
+       /* padding-top:24px;
+       padding-bottom: 24px; */
 }
 .is-hidden {
        opacity: 0;
@@ -21,10 +23,10 @@
        top: 50%;
        left: 50%;
        transform: translate(-50%, -50%);
-
+   
        width: 408px;
        height: 579px;
-
+   
        background: #FCFCFC;
        box-shadow: 0px 1px 1px
        rgba(0, 0, 0, 0.14), 0px 1px 3px 
@@ -37,26 +39,26 @@
 }
 .btn-close {
        position: absolute;
-   
+
        top: 10px;
        right: 10px;
-   
+
        padding: 0;
        border-radius: 50%;
-   
+
        /* background-color: transparent; */
        background: #E7E9FC;
-   
+
        width: 24px;
        height: 24px;
-   
+
        display: flex;
        justify-content: center;
        align-items: center;
        border: none;
-   
+
        transition: border-color var();
-         box-shadow: 0px 1px 6px 
+       box-shadow: 0px 1px 6px 
               rgba(46, 47, 66, 0.08), 
               0px 1px 1px rgba(46, 47, 66, 0.16), 
               0px 2px 1px rgba(46, 47, 66, 0.08);      
@@ -142,6 +144,8 @@
     color:rgba(117, 117, 117, 0.5);
 
 }
+   
+
 
         /* MODAL WINDOW/ */
 .modal-forma{
@@ -247,7 +251,7 @@
 .btn-form{
        width: 170px;
        height: 51px;
-       margin:  24px 119px;
+       margin:  24px 119px 24px 119px;
        background: #4D5AE5;
        color: #FFFFFF;
        font-size: 16px;
@@ -258,6 +262,6 @@
        border: none;
        align-self: center;
 }
-       .btn-form:hover{
-              background-color: var(--color-btn-hover);   
-       }
+.btn-form:hover{
+       background-color: var(--color-btn-hover);   
+}
