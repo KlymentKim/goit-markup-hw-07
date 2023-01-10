@@ -1,7 +1,6 @@
 /* -----------   Mobile CSS  -------------  */
 
-@media screen and (max-width:320px),
-(max-width:767px) {
+@media screen and (min-width:320px){
     .mobile-menu-form{
         position: fixed;
         width: 100%;
@@ -23,9 +22,10 @@
     .mobile-menu-wrapper{
         position: relative;
         padding-top:40px;
-        padding-left: 40px;
-        max-width: 428px; 
-        max-height: 796px;
+        /* padding-left: 40px; */
+
+        width: 95%; 
+        max-height: 100vh;
     }
     .is-open{
         opacity: 1;
@@ -87,7 +87,7 @@
         margin-bottom: 40px;
     }
     .item-link-tel{
-        margin-top: 280px;
+        margin-top: 240px;
         margin-bottom: 40px;
     }
     .item-link-email{
@@ -132,7 +132,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 56px;
+        gap:35px;
     }
     .social-link-mobile{
         width: 40px;
@@ -153,3 +153,21 @@
     
 }
 
+
+@media screen and (min-width:480px){
+
+    .mobile-menu-wrapper{
+        position: relative;
+        padding-top:40px;
+        /* padding-left: 40px; */
+
+        max-width: 428px; 
+        max-height: 796px;
+    }
+    .social-list-mobile{
+        display: flex;
+        gap:56px;
+    }
+
+    
+}
