@@ -79,8 +79,9 @@ body{
 }
 
 @media screen and (max-width:480px), 
-(max-width:768px){
+(max-width:768px) {
     .container{
+        width: 100%;
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -295,10 +296,11 @@ body{
 .item-icon-rectangle:not(:nth-child(-3+n)){
     margin-bottom: 72px;
 }
-}
+
+
  .item-icon-rectangle:hover,
  .item-icon-rectangle:focus {
-     border: 1px solid var(--bg-svg-color-social-link);
+    border: 1px solid var(--bg-svg-color-social-link);
  }
 
  .icon-svg {
@@ -306,7 +308,7 @@ body{
  }
 
  .icon-svg:hover {
-     fill: var(--bg-svg-color-social-link);
+    fill: var(--bg-svg-color-social-link);
  }
 
 
@@ -657,6 +659,8 @@ padding-left: 16px;
     margin-left: 16px;
 }
 
+}
+
 
 @media screen and (min-width:768px) {
     .container{
@@ -918,10 +922,14 @@ padding-left: 16px;
 /* ----------- Desktop -------- */
 @media screen and (min-width:1200px){
     .container {
-        width: 1199px; 
-        margin: 0 auto; 
+        width: 1200px; 
+        /* margin: 0 auto;  */
     }
 
+    .section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
                 /* HEADER Section  */
     .header{
         padding: 24px 24px;     
@@ -1237,15 +1245,7 @@ padding-left: 16px;
     .portfolio-card-img:not(:nth-last-child(-n+3)){
         /* margin-bottom: 72px; */
     }
-    /* .card > .bankingApp{
-      background-image: gradient(rgba(77, 90, 229, 0.1),
-       rgba(77, 90, 229, 0.1)),
-       url(/images/bankingApp.jpg);
-       background-size: cover;
-       background-position: center;
-       background-repeat: no-repeat;
-       background-color: #4D5AE5; */
-       
+
     .portfolio-description{
         padding-top: var(--padding-top-set-img);
         padding: 32px 0 32px 16px;
@@ -1518,8 +1518,17 @@ padding-left: 16px;
 }
 
 @media screen and (min-width:1201px){
+    
+    .container{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .footer-wrapper {
         display: flex;
-        margin-left: 320px;
+        align-content: center;
+        margin-left: 80px;
+       
     }
+
 }
