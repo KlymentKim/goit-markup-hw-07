@@ -77,11 +77,13 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-@media screen and (min-width:320px){
- 
-}
+
 @media screen and (max-width:480px), 
 (max-width:768px){
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     
     .btn-close{
         display: none;
@@ -184,7 +186,9 @@ body{
     .wrapper-tittle{
         display: block;
         flex-direction: column;
-
+    }
+    .wrapper-item:not(:last-child){
+        margin-bottom: 72px;
     }
         .h3-goals{
         text-align: center;
@@ -203,7 +207,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-bottom: 72px;
+        /* margin-bottom: 72px; */
     }
 
     .main-title-todo{
@@ -287,9 +291,11 @@ body{
      height: 88px;
      padding: 16px 32px;
      fill: #8E8F99;
-     margin-bottom: 72px;
  }
-
+.item-icon-rectangle:not(:nth-child(-3+n)){
+    margin-bottom: 72px;
+}
+}
  .item-icon-rectangle:hover,
  .item-icon-rectangle:focus {
      border: 1px solid var(--bg-svg-color-social-link);
@@ -363,7 +369,7 @@ width: 100%;
 .portfolio-card-img{
 width: 100%;
 height: 400px;
-margin-bottom: 48px;
+/* margin-bottom: 48px; */
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -650,9 +656,13 @@ padding-left: 16px;
     background-image: url('../images/icon-send.svg');
     margin-left: 16px;
 }
-}
+
 
 @media screen and (min-width:768px) {
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
     
     .btn-close,
     .btn-open{
@@ -755,7 +765,7 @@ padding-left: 16px;
         width: 356px;
         height: 420px;
 
-       margin-bottom: 72px;
+       /* margin-bottom: 72px; */
         /* flex-basis: calc((100% - 24px) / 2);     */
 
         cursor: pointer;
@@ -763,6 +773,9 @@ padding-left: 16px;
         
         position: relative;  
         display: block;
+    }
+    .portfolio-card-img:not(:nth-last-child(-n+2)){
+        margin-bottom: 72px;
     }
         /* рамка нижней части карточки */
     
@@ -786,7 +799,8 @@ padding-left: 16px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        }
+}
+
    .btn {
 
        padding: 16px 32px;
@@ -865,7 +879,7 @@ padding-left: 16px;
     .wrapper-social-media{
         margin:0;
         padding: 0;
-    }
+}
 
 .footer-wrapper-1,
 .footer-wrapper-2{
@@ -899,6 +913,8 @@ padding-left: 16px;
     width: 264px;
     }
 }
+
+
 /* ----------- Desktop -------- */
 @media screen and (min-width:1200px){
     .container {
@@ -1219,7 +1235,7 @@ padding-left: 16px;
         /* margin-right: 24px; */
     }
     .portfolio-card-img:not(:nth-last-child(-n+3)){
-        /* margin-bottom: 48px; */
+        /* margin-bottom: 72px; */
     }
     /* .card > .bankingApp{
       background-image: gradient(rgba(77, 90, 229, 0.1),
