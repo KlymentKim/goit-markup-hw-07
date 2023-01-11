@@ -82,8 +82,7 @@ body{
 @media screen and (max-width:480px),
 (max-width:768px){
    
-    .btn-close,
-    .mobile-menu-wrapper{
+    .btn-close{
         display: none;
     }
     .header-menu-list{
