@@ -308,6 +308,12 @@
        border-radius: 4px;
        /* відступи контенту по кроям модального вікна */
        padding: 72px 24px 24px 24px;
+
+       transition-duration: 1000ms;
+       transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.backdrop .is-hidden .modal{
+       transform: translate(-50%, -50%) scale(2);
 }
 .btn-close {
        position: absolute;

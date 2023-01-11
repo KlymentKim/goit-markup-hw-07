@@ -1,7 +1,6 @@
 /* -----------   Mobile CSS  -------------  */
 
-@media screen and (max-width:320px),
-(min-width:480px){
+@media screen and (max-width:320px){
     .mobile-menu-form{
         position: fixed;
         width: 100%;
@@ -16,7 +15,7 @@
         
         opacity: 0;
         pointer-events: none;
-        /* transition: opacity 500ms linear, visibility 500ms linear; */
+        transition: opacity 500ms linear, visibility 500ms linear;
     
     }
     .mobile-menu-wrapper{
