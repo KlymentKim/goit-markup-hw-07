@@ -51,9 +51,7 @@ button{
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
-body .overflow-hidden{
-        position: fixed;
-        overflow: hidden;
+body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-color-baground);  
 }
@@ -83,6 +81,7 @@ body .overflow-hidden{
 
 @media screen and (max-width:480px),
 (max-width:768px){
+
     .btn-close{
         display: none;
     }
@@ -113,9 +112,19 @@ body .overflow-hidden{
     .container-menu {
         margin-right: auto;
     }
-    .header-menu-list {
+    .header-menu-list{
         display: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em; 
     }
+.header-menu-list-contact {
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 1.3em
+}
 
     .main-logo1,
     .main-logo2{
@@ -168,7 +177,7 @@ body .overflow-hidden{
         margin-bottom: 72px;
     }
     .btn{
-        
+    
         padding: 16px 32px;
         background: #4D5AE5;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -937,7 +946,7 @@ padding-left: 16px;
 /* ----------- Desktop -------- */
 @media screen and (min-width:1200px){
     .container {
-        max-width: 1158px; 
+        width: 1158px; 
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -1302,8 +1311,9 @@ padding-left: 16px;
         display: inline-flex;
     }
     .footer-wrapper-2{
-        margin-left: -26px;
-        margin-right: 80px;
+        position: absolute;
+        top: 0;
+        right: 480px;
     }
     .main-footer-text,
     .portfolio-footer-text{
@@ -1324,7 +1334,7 @@ padding-left: 16px;
     .footer-wrapper-form{
         position: absolute;
         top:0px;
-        left:750px;
+        left:720px;
     }
    
     .wrapper-list-social-media{
@@ -1436,7 +1446,9 @@ padding-left: 16px;
         fill:var(--bg-svg-color-social-link);
     }
     .footer-wrapper-1{
-        margin-right: 90px;
+        position: relative;
+        top:0;
+        right: -110px;
     }
     
         /*------------ Social media -----------*/
