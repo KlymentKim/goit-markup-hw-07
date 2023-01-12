@@ -316,13 +316,13 @@
             /* не действует ни какие собітія */
        pointer-events: none;
        visibility: hidden;
-       position: absolute;
+       
 }
 .modal {
        position: absolute;
        top: 50%;
        left: 50%;
-       transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%) scale(1);
 
        max-width: 408px;
        max-height: 586px;
@@ -336,10 +336,10 @@
        /* відступи контенту по кроям модального вікна */
        padding: 72px 24px 24px 24px;
 
-       transition-duration: 1000ms;
-       transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+       transition-duration: 500ms;
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
-.backdrop .is-hidden .modal{
+.backdrop.is-hidden .modal{
        transform: translate(-50%, -50%) scale(2);
 }
 .btn-close {
