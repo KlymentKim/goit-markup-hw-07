@@ -183,9 +183,13 @@ body .overflow-hidden{
         display: block;
         flex-direction: column;
     }
-    .wrapper-item:not(:last-child){
+
+@media screen and (max-width:480px){
+    .wrapper-item-480px:not(:last-child){
         margin-bottom: 72px;
     }
+}
+    
         .h3-goals{
         text-align: center;
         font-weight: 700;
@@ -820,9 +824,12 @@ padding-left: 16px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    row-gap:72px;
+    /* row-gap:72px; */
     column-gap: 24px;
 }
+ .wrapper-item:not(:nth-last-child(-n+2)) {
+     margin-bottom: 72px;
+ }
     .wrapper-item{
     flex-basis: calc((100% - 24px) / 2);
     width: 356px;
