@@ -76,13 +76,13 @@ body .overflow-hidden{
 
 .container{
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
 } 
 
 
 @media screen and (max-width:480px),
-(max-width:767px){
+(max-width:768px){
     .btn-close{
         display: none;
     }
@@ -286,23 +286,19 @@ body .overflow-hidden{
      fill: #8E8F99;
      
  }
-  #item-customer:not(:nth-child(2n)) {
+  /* #item-customer:not(:nth-last-child(2n)) {
       margin-right: 24px;
-  }
+  } */
  #item-customer:not(:nth-last-child(-n+2)) {
      margin-bottom: 72px;
  }
- /* .item-480px:not(:nth-last-child(-n+2)){
-    margin-bottom: 72px;
- } */
+
 @media screen and (max-width:320px){
 
 .item-icon-rectangle:not(:nth-last-child(-n+1)){
     margin-bottom: 72px;
     }
 }
-
-
  .item-icon-rectangle:hover,
  .item-icon-rectangle:focus {
     border: 1px solid var(--bg-svg-color-social-link);
@@ -363,7 +359,6 @@ body .overflow-hidden{
 background-color:var(--color-btn-hover);
 }
 .portfolio-items-img{
-width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -375,10 +370,16 @@ width: 100%;
 
 .portfolio-card-img{
 width: 100%;
-height: 400px;
-/* margin-bottom: 48px; */
+/* height: 420px; */
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.portfolio-card-img:not(:last-child){
+    margin-bottom: 72px;
+}
+
+.bankingApp{
+   width: 100%;
 }
 .h2-type-app{
 margin-bottom: 8px;
@@ -523,10 +524,12 @@ padding-left: 16px;
       background-color: var(--bg-color-social-icons);
   }
 
-  /* Customers Section */
-  .wrapper-panel-icons {
+      /*--------------------- Customers Section------------------- */
+  .wrapper-panel-icons{
       display: flex;
-  }
+      flex-direction: row;
+      column-gap: 24px;
+}
 
   .item-icon-rectangle {
       box-sizing: border-box;
@@ -780,6 +783,7 @@ padding-left: 16px;
     .portfolio-card-img:not(:nth-last-child(-n+2)){
         margin-bottom: 72px;
     }
+   
         /* рамка нижней части карточки */
     
     .portfolio-description:hover{
@@ -805,7 +809,6 @@ padding-left: 16px;
 }
 
    .btn {
-
        padding: 16px 32px;
        background: #4D5AE5;
        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
