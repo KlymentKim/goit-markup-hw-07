@@ -27,8 +27,8 @@
        left: 50%;
        transform: translate(-50%, -50%) scale(1);
 
-       max-width: 95%;
-       max-height: 94%;
+       max-width: 392px;
+       max-height: 586px;
 
        background: #FCFCFC;
        box-shadow: 0px 1px 1px
@@ -337,11 +337,11 @@
        padding: 72px 24px 24px 24px;
 
        transition-duration: 500ms;
-       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+       transition-timing-function: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9) linear;
 }
 
 .backdrop.is-hidden .modal{
-       transform: translate(-50%, -50%) scale(2);
+       transform: translate(-50%, -50%) scale(2) ;
 }
 .btn-close {
        position: absolute;
