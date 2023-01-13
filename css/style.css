@@ -1553,10 +1553,12 @@ padding-left: 16px;
         margin-right: auto;
     } 
       .footer-wrapper {
-        display: flex;
-        align-content: center;
-        margin-left: 205px;
-
+        position: relative;
+        /* display: flex; */
+        /* align-content: center; */
+        top:50%;
+        left:23%;
+       transform: translate(-50%,0);
     }
 
 }
