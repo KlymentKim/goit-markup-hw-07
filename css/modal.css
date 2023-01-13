@@ -337,7 +337,7 @@
        padding: 72px 24px 24px 24px;
 
        transition-duration: 500ms;
-       transition-timing-function: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9) linear;
+       transition-timing-function: all 0.3s cubic-bezier(0.25, 0.5, 0.5, 0.9) li;
 }
 
 .backdrop.is-hidden .modal{
