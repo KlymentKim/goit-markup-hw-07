@@ -1547,18 +1547,20 @@ padding-left: 16px;
 
  @media screen and (min-width:1201px){
      
-    .container{
-         max-width: 100%; 
-         margin-left: auto;
-        margin-right: auto;
-    } 
-      .footer-wrapper {
-        position: relative;
-        /* display: flex; */
-        /* align-content: center; */
-        top:50%;
-        left:23%;
-       transform: translate(-50%,0);
+     .container{
+        margin: 0 auto;
+     }
+    .section{
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
+    .footer{
+        display: flex;
+        margin-left: -200px;    
+    }
+    .footer-wrapper{
+        /* display: flex; */
+    }
+
 
 }
