@@ -1548,14 +1548,14 @@ padding-left: 16px;
  @media screen and (min-width:1201px){
      
     .container{
-         max-width: px; 
+         max-width: 100%; 
          margin-left: auto;
         margin-right: auto;
     } 
       .footer-wrapper {
         display: flex;
         align-content: center;
-        margin-left: 250px;
+        margin-left: 205px;
 
     }
 
